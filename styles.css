@@ -1,0 +1,32 @@
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f5a982;
+    border-radius: 8px;
+    text-align: center;
+}
+.task-list {
+    list-style-type: none;
+    padding: 0;
+}
+.task-item {
+    text-align: left;
+    font-size: 18px;
+    margin: 5px 0;
+}
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+.progress-bar {
+    height: 20px;
+    width: 100%;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+.progress {
+    height: 100%;
+    border-radius: 5px;
+}
